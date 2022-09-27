@@ -1,0 +1,137 @@
+.main-container-afterSign.story {
+  height: 100vh;
+  background-color: var(--bg-add-status);
+}
+.inner-container-afterSign.story {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+}
+/* disply the persons who have a story */
+/* left section */
+.chat-story {
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+  position: relative;
+  align-content: center;
+  color: var(--font-name);
+  font-size: 17px;
+  font-weight: 500;
+}
+.chat-story.my {
+  padding-bottom: 30px;
+}
+.my-status .recent-story {
+  font-size: 12px;
+  color: var(--secondary-heading);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 4px 0 0 20px;
+}
+.chat-story::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 1px;
+  right: 2px;
+  bottom: 0px;
+  background-color: var(--line-color);
+}
+.chat-story.my::after {
+  width: 96%;
+  right: 10px;
+}
+.chat-story:hover {
+  background-color: var(--bg-hover-chat);
+}
+.chat-story .chat-image {
+  width: 48px;
+  margin-right: 15px;
+  background-color: #008069;
+  border-radius: 50%;
+  padding: 2px;
+  z-index: 0;
+  position: relative;
+}
+.chat-story .chat-image::before,
+.chat-story .chat-image::after {
+  content: "";
+  background-color: transparent;
+  width: 2px;
+  height: 2px;
+  left: 50%;
+  transform: translatex(-50%);
+  position: absolute;
+}
+.chat-story .chat-image::before {
+  top: 0px;
+}
+.chat-story .chat-image::after {
+  bottom: 3px;
+}
+.chat-story.my .chat-image {
+  background-color: transparent;
+}
+.chat-story .chat-image img {
+  width: 100%;
+  margin: auto;
+  border-radius: 50%;
+  height: 44px;
+  z-index: 100;
+}
+
+.story-name-time .story-name {
+  font-weight: 350;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.story-name-time .story-time {
+  font-size: 12px;
+  color: var(--secondary-heading);
+  font-weight: 400;
+}
+
+.end-to-end-story {
+  color: var(--secondary-heading);
+  font-size: 13px;
+  text-align: center;
+  padding: 20px 0;
+}
+.end-to-end-story svg {
+  padding-right: 4px;
+}
+.end-to-end-story a {
+  color: #53bdeb !important;
+  padding-left: 4px;
+}
+/* end left section */
+/* start the right section logo of stories */
+.content-right-story-section {
+  background-color: var(--bg-add-status);
+  width: 100%;
+  height: 100%;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  padding-top: 200px;
+}
+
+.story-shape {
+  color: var(--status-secondary);
+  padding-top: 50px;
+}
+.story-shape .story-text {
+  padding-top: 30px;
+  font-size: 14px;
+}
+.X-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: var(--x-close);
+}

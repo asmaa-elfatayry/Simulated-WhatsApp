@@ -1,0 +1,119 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "name": " BFF ",
+      "time": "4:21 pm",
+      "description": "😂😂",
+      "image": "https://i.pinimg.com/564x/e1/58/02/e15802fefba3cc1bce8e2da759c20277.jpg",
+      "story":false
+    
+    },
+    {
+      "id": 2,
+      "name": "osama ",
+      "time": "3:34 pm",
+      "description": "تمام 👍",
+      "image": "https://i.pinimg.com/564x/c4/10/c5/c410c5ec2a9f18a6f28f0fddc678e032.jpg",
+      "story":false
+    
+    },
+    {
+      "id": 3,
+      "name": "aya ",
+      "time": "9:00 pm",
+      "description": "اللهم صل وسلم وبارك عليك يا سيدي يا رسول الله",
+      "image": "https://i.pinimg.com/564x/3e/33/77/3e337736a5378fb7dd109022dd5dd140.jpg",
+      "story":true,
+      "storyTime":"today at 11:05 pm"
+    
+    },
+    {
+      "id": 4,
+      "name": "mom ❤️ ",
+      "time": "12:21 am",
+      "description": "❤️❤️",
+      "image": "https://i.pinimg.com/564x/89/2e/4a/892e4ab1ef4d8b11329e1ef545f444d8.jpg",
+      "story":false
+    
+    },
+    {
+      "id": 5,
+      "name": "mariam ",
+      "time": "yesterday",
+      "description": "ok ",
+      "image": "https://i.pinimg.com/564x/43/ca/23/43ca239cf562dff01892bcd973db8267.jpg",
+      "story":true,
+      "storyTime":"today at 10:35 pm"
+    
+    },
+    {
+      "id": 6,
+      "name": "sara ",
+      "time": "yesterday",
+      "description": "Hi !",
+      "image": "https://i.pinimg.com/originals/98/96/6a/98966aeef09b4c6ad5647179cdd60d6b.jpg",
+      "story":true,
+      "storyTime":"today at 9:00 pm"
+    
+    },
+    {
+      "id": 7,
+      "name": "aser ✨",
+      "time": "yesterday",
+      "description": "Fake APIS 👻",
+      "image": "https://i.pinimg.com/564x/a0/de/46/a0de46f0700a3e929e7c7c71b1234ab7.jpg",
+      "story":true,
+      "storyTime":"today at 7:30 pm"
+    
+    },
+    {
+      "id": 8,
+      "name": "omar ",
+      "time": "Wedensday",
+      "description": "try to test the code ",
+      "image": "https://i.pinimg.com/736x/f6/e2/57/f6e2571b07f58c885b012aabd517d783.jpg",
+      "story":false
+    
+    },
+    {
+      "id": 9,
+      "name": "leen 🌸 ",
+      "time": "Tuesday",
+      "description": "تسلمي 🙏",
+      "image": "https://i.pinimg.com/564x/13/62/f6/1362f68eec33ab198d159148ab56a8c1.jpg",
+      "story":true,
+      "storyTime":"today at 5:55 pm"
+    
+    },
+    {
+      "id": 10,
+      "name": "esraa ",
+      "time": "Tuesday",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://i.pinimg.com/564x/08/3d/fa/083dfa511e48484c8829c0b9f9f60337.jpg",
+      "story":false
+    
+    },
+    {
+      "id": 11,
+      "name": "nada ",
+      "time": "Monday",
+      "description": "🤦‍♀️🤦‍♀️",
+      "image": "https://i.pinimg.com/564x/d0/7e/bb/d07ebbf54c2c1cdf370a13324afaa073.jpg",
+      "story":false
+    
+    },
+    {
+      "id": 12,
+      "name": "asmaa ",
+      "time": "Sunday",
+      "description": "The journey of a thousand miles begins with one step ✨",
+      "image": "https://i.pinimg.com/564x/d6/0e/64/d60e6415428e039f489ca23ae6ef00d4.jpg",
+      "story":true,
+      "storyTime":"today at 2:00 pm"
+    
+    }
+    
+  ]
+}

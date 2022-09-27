@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+:root {
+  --main-green-color: #00a884;
+  --bold-font-color: #61646a;
+  --bg-color: rgb(16, 27, 33);
+  --after-sign: rgb(16, 27, 33);
+  --normal-font-color: #414a59;
+  --top-welcome-bg: #ffffff;
+  --bg-left-chat: transparent;
+  --bottom-welcome-bg: #f9f9fa;
+  --bg-inner-afterSigned: rgb(34, 46, 53);
+  --option-navbar-color: #aebac1;
+  --primary-heading: rgba(233, 237, 239, 0.88);
+  --secondary-heading: #8696a0;
+  --option-bg-navbar: #233138;
+  --intro-border: #008069;
+  --font-name: #e9edef;
+  --bg-hover-chat: rgba(34, 46, 53, 0.796);
+  --line-color: rgba(72, 73, 74, 0.585);
+  --warn-msg-color: #8696a0;
+  --bg-warn-ms: #111b21;
+  --bg-send-msg: #005c4b;
+  --bg-input-type-msg: #202c33;
+  --inner-bg-input-typing: #2a3942;
+  --bg-add-status: #0b141a;
+  --x-close: #fff;
+  --status-secondary: hsla(0, 0%, 100%, 0.55);
+  --bg-intro-image: url("./images/dark-intro.png");
+  --bg-wallpaper: url("./images/dark-mode.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-theme="light"] {
+  --bg-color: #e1e1dd;
+  --bg-inner-afterSigned: #f0f2f5;
+  --after-sign: rgb(240, 242, 245);
+  --font-name: rgb(16, 27, 33);
+  --option-navbar-color: #54656f;
+  --normal-font-color: rgb(240, 242, 245);
+  --primary-heading: #8b949a;
+  --bg-left-chat: #ffffff;
+  --line-color: #e9edef;
+  --secondary-heading: #667781;
+  --bg-send-msg: #d9fdd3;
+  --bg-input-type-msg: #f0f2f5;
+  --inner-bg-input-typing: #ffffff;
+  --option-bg-navbar: #ffffff;
+  --bg-warn-ms: #ffffff;
+  --warn-msg-color: #54656f;
+  --bg-hover-chat: #f0f2f5;
+  --intro-border: #25d366;
+  --bg-add-status: hsla(0, 0%, 100%, 0.55);
+  --status-secondary: rgb(16, 27, 33);
+  --x-close: #005c4b;
+  --bg-intro-image: url("./images/light-intro.png");
+  --bg-wallpaper: url("./images/light-mode.png");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Lucida 'Grande', Arial, 'Ubuntu',
+    'Canta';
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  --bs-gutter-x: 0rem !important;
 }

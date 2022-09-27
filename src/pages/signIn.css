@@ -1,0 +1,120 @@
+.Sign-section {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: rgb(11 20 26 / 19%) 0px 17px 50px 0px,
+    rgb(11 20 26 / 24%) 0px 12px 15px 0px;
+  z-index: 2;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 950px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .Sign-section {
+    max-width: 600px;
+  }
+}
+@media (max-width: 574px) {
+  .Sign-section {
+    max-width: 380px;
+  }
+}
+.Sign-section .top-scan-section {
+  padding: 64px 60px 110px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@media (max-width: 574px) {
+  .Sign-section .top-scan-section {
+    padding: 34px 20px 55px;
+  }
+}
+.Sign-section .landing-title {
+  padding-bottom: 44px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: normal;
+  color: var(--normal-font-color);
+}
+
+.Sign-section ol li {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--normal-font-color);
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+@media (max-width: 768px) {
+  .top-scan-section .qr-img {
+    margin-bottom: 30px;
+  }
+}
+.top-scan-section .react-icon {
+  padding: 1px 4px 4px;
+  background-color: #f2f2f2;
+  color: #818b90;
+  width: 22px;
+  height: 22px;
+  margin: 0 3px;
+  text-align: center;
+  font-weight: lighter;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.need-help {
+  position: absolute;
+  bottom: 90px;
+  font-size: 14px;
+  color: #008069;
+  left: 90px;
+  cursor: pointer;
+}
+.signed {
+  position: absolute;
+  bottom: 60px;
+  font-size: 14px;
+  left: 90px;
+  color: #008069;
+  text-decoration: underline;
+}
+@media (max-width: 574px) {
+  .need-help {
+    bottom: 60px;
+    left: 50px;
+  }
+  .signed {
+    bottom: 40px;
+    left: 50px;
+  }
+}
+
+.bottom-scan-section {
+  background-color: var(--bottom-welcome-bg);
+  padding: 70px 60px;
+}
+
+.bottom-scan-section .img-connect {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .bottom-scan-section .img-connect {
+    max-width: 500px;
+  }
+}
+@media (max-width: 574px) {
+  .bottom-scan-section .img-connect {
+    max-width: 290px;
+  }
+}
+.bottom-scan-section .img-connect img {
+  width: 100%;
+}
