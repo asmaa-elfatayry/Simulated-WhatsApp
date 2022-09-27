@@ -2,7 +2,7 @@
 
 ![Design preview for the simulate WhatsApp ](./ScreenshotWhatsApp.png)
 
-Deploy The App: https://simulated-whatsapp.herokuapp.com/
+
 
 ## Welcome! 👋
 
