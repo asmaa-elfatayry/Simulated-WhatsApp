@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import React from "react";
 function ChatBody() {
-  const Api_URL = "http://localhost:3004/messages";
+  const Api_URL = "https://my-json-server.typicode.com/asmaa-elfatayry/Simulated-WhatsApp/messages";
   const [messages, setMSg] = useState([]);
 
   const getMsg = () => {

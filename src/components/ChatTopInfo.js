@@ -4,7 +4,7 @@ import React from "react";
 function ChatTopInfo() {
   const params = useParams();
   const [messages, setMessages] = useState([]);
-  const Api_URL = "http://localhost:3004/messages";
+  const Api_URL = "https://my-json-server.typicode.com/asmaa-elfatayry/Simulated-WhatsApp/messages";
   useEffect(() => {
     fetch(`${Api_URL}/${params.chatID}`)
       .then((res) => res.json())

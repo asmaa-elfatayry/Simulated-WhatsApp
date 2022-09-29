@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import my_img from "../images/profile-pic.jpg";
 import React from "react";
 function ShowStory() {
-  const Api_URL = "http://localhost:3004/messages";
+  const Api_URL = "https://my-json-server.typicode.com/asmaa-elfatayry/Simulated-WhatsApp/messages";
   const [messages, setMSg] = useState([]);
 
   const getMsg = () => {
